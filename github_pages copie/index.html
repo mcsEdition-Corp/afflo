@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afflo - Affirmations quotidiennes pour TDAH</title>
+    <meta name="description" content="Afflo est une application d'affirmations quotidiennes spécialement conçue pour les personnes avec TDAH.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="assets/images/logo.png" alt="Afflo Logo" class="logo">
+                    <div>
+                        <h1 class="app-name">Afflo</h1>
+                        <p class="tagline" data-i18n="tagline">Affirmations quotidiennes pour TDAH</p>
+                    </div>
+                </div>
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="fr">🇫🇷 FR</button>
+                    <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+            <li><a href="privacy.html" data-i18n="nav_privacy">Confidentialité</a></li>
+            <li><a href="data-deletion.html" data-i18n="nav_data_deletion">Suppression de données</a></li>
+            <li><a href="support.html" data-i18n="nav_support">Support</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="content-section lang-loading" id="main-content">
+                <!-- French Content -->
+                <div class="lang-content" data-lang="fr">
+                    <h1>Bienvenue sur Afflo 💙</h1>
+                    <p>Afflo est votre compagnon quotidien d'affirmations positives, spécialement conçu pour les personnes avec TDAH.</p>
+
+                    <div class="cards-grid">
+                        <div class="card">
+                            <div class="card-icon">✨</div>
+                            <h3>2000+ Affirmations</h3>
+                            <p>Plus de 2000 affirmations validées par la recherche ADHD, disponibles en français et anglais.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🎯</div>
+                            <h3>10 Catégories</h3>
+                            <p>Auto-compassion, gestion du temps, régulation émotionnelle, et bien plus encore.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🔔</div>
+                            <h3>Notifications</h3>
+                            <p>Recevez vos affirmations au bon moment, quand vous en avez besoin.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">⭐</div>
+                            <h3>Favoris</h3>
+                            <p>Sauvegardez vos affirmations préférées pour y revenir facilement.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">📊</div>
+                            <h3>Progression</h3>
+                            <p>Suivez votre parcours et célébrez vos petites victoires quotidiennes.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🔒</div>
+                            <h3>Privé & Sécurisé</h3>
+                            <p>Vos données sont cryptées et ne sont jamais partagées avec des tiers.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-box" style="margin-top: 3rem;">
+                        <h2>📱 Téléchargez Afflo</h2>
+                        <p>Disponible sur iOS et Android. Commencez votre parcours de bien-être dès aujourd'hui.</p>
+                        <div style="display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                            <a href="#" class="btn">📱 App Store</a>
+                            <a href="#" class="btn">🤖 Google Play</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English Content -->
+                <div class="lang-content" data-lang="en" style="display: none;">
+                    <h1>Welcome to Afflo 💙</h1>
+                    <p>Afflo is your daily companion for positive affirmations, specifically designed for people with ADHD.</p>
+
+                    <div class="cards-grid">
+                        <div class="card">
+                            <div class="card-icon">✨</div>
+                            <h3>2000+ Affirmations</h3>
+                            <p>Over 2000 research-validated ADHD affirmations, available in French and English.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🎯</div>
+                            <h3>10 Categories</h3>
+                            <p>Self-compassion, time management, emotional regulation, and much more.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🔔</div>
+                            <h3>Notifications</h3>
+                            <p>Receive your affirmations at the right time, when you need them.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">⭐</div>
+                            <h3>Favorites</h3>
+                            <p>Save your favorite affirmations to easily come back to them.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">📊</div>
+                            <h3>Progress</h3>
+                            <p>Track your journey and celebrate your daily small victories.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🔒</div>
+                            <h3>Private & Secure</h3>
+                            <p>Your data is encrypted and never shared with third parties.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-box" style="margin-top: 3rem;">
+                        <h2>📱 Download Afflo</h2>
+                        <p>Available on iOS and Android. Start your wellness journey today.</p>
+                        <div style="display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                            <a href="#" class="btn">📱 App Store</a>
+                            <a href="#" class="btn">🤖 Google Play</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="footer_about">À propos</h3>
+                    <p data-i18n="footer_about_text">Afflo est une application d'affirmations quotidiennes spécialement conçue pour les personnes avec TDAH.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer_links">Liens</h3>
+                    <a href="index.html" data-i18n="nav_home">Accueil</a>
+                    <a href="privacy.html" data-i18n="nav_privacy">Confidentialité</a>
+                    <a href="data-deletion.html" data-i18n="nav_data_deletion">Suppression de données</a>
+                    <a href="support.html" data-i18n="nav_support">Support</a>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer_contact">Contact</h3>
+                    <p><span data-i18n="footer_email">Email</span>: <a href="mailto:support@afflo.app" class="contact-email">support@afflo.app</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Afflo. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/lang.js"></script>
+    <script>
+        // Handle language-specific content visibility
+        document.addEventListener('languageChanged', (e) => {
+            const lang = e.detail.lang;
+            document.querySelectorAll('.lang-content').forEach(content => {
+                content.style.display = content.dataset.lang === lang ? 'block' : 'none';
+            });
+        });
+
+        // Initialize on load
+        const initialLang = localStorage.getItem('afflo_lang') || 'fr';
+        document.querySelectorAll('.lang-content').forEach(content => {
+            content.style.display = content.dataset.lang === initialLang ? 'block' : 'none';
+        });
+    </script>
+</body>
+</html>
